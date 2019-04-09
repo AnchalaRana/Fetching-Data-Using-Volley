@@ -1,5 +1,7 @@
 package com.example.anchala.seo_project;
 
+import org.json.JSONObject;
+
 public class User {
 
     private String name;
@@ -7,7 +9,7 @@ public class User {
     private Phone phone ;
 
 
-    public User(String name, String email, Phone phone) {
+    public User() {
         this.name = name;
         this.email = email;
         this.phone = phone;

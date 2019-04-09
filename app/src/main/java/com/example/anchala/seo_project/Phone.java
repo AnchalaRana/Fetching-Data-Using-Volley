@@ -5,7 +5,7 @@ public class Phone {
     private String home;
     private String mobile;
 
-    public Phone(String mobile , String home) {
+    public Phone() {
         this.mobile = mobile;
         this.home = home;
     }
